@@ -1,0 +1,195 @@
+* {
+  padding: 0px;
+  outline: 0px;
+  margin: 0px;
+  font-family: "Poppins";
+}
+.main {
+  max-width: 800px;
+  border: 2px solid gray;
+  padding: 20px;
+  box-shadow: 0px 0px 3px 1px lightgray;
+  height: 900px;
+  overflow: visible;
+}
+.resume_template{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: auto;
+  padding: 10px;
+  column-gap: 50px;
+}
+.profile_photo {
+  margin-top: 20px;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 100%;
+}
+.name {
+  color: rgb(75, 71, 71);
+  letter-spacing: 1px;
+}
+.degree {
+  word-spacing: 5px;
+  color: rgb(93, 93, 93);
+  margin-top: 10px;
+}
+.brief {
+  margin-top: 10px;
+  text-align: start;
+}
+.handles {
+  background-color: rgb(27, 27, 75);
+  height: 25px;
+}
+.handles ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.handles li{
+  display: inline;
+  margin-left: 55px;
+  color: white;
+  font-size: small;
+}
+.education_skills {
+  width: 800px;
+  height: 600px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 50% 50% ;
+  column-gap: 80px;
+  grid-template-rows: 25% 25% 25% 25% ;
+}
+.education{
+  color: rgb(75, 71, 71);
+}
+.edu1 p {
+  font-size: smaller;
+}
+.edu1 ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.edu1 li {
+  display: inline;
+  font-size: smaller;
+}
+.edu1 .location {
+  margin-left: 120px;
+}
+.edu1 .percent {
+  margin-left: 130px;
+}
+.edu2 {
+  margin-top: 30px;
+}
+.edu2 p {
+  font-size: smaller;
+}
+.edu2 ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.edu2 li {
+  display: inline;
+  font-size: smaller;
+}
+.edu2 .location {
+  margin-left: 120px;
+}
+.edu2 .percent {
+  margin-left: 208px;
+}
+.edu3 {
+  margin-top: 30px;
+}
+.edu3 p {
+  font-size: smaller;
+}
+.edu3 ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.edu3 li {
+  display: inline;
+  font-size: smaller;
+}
+.edu3 .location {
+  margin-left: 120px;
+}
+.edu3 .percent {
+  margin-left: 217px;
+}
+.work_exp {
+  color: rgb(75, 71, 71);
+}
+.work_exp p {
+  font-size: small;
+}
+.work_exp ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.work_exp li {
+  font-size: small;
+}
+.personal_project {
+  margin-top: 70px;
+  color: rgb(75, 71, 71);
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+.personal_project p{
+  font-size: small;
+}
+.personal_project .p2 {
+  font-size:smaller ;
+}
+.language{
+  color: rgb(75, 71, 71);
+  grid-column: 2/2;
+  grid-row: 2/2;
+}
+.language p {
+  font-size: small;
+}
+.skills {
+  grid-column: 2/2;
+  grid-row: 3/4;
+  color: rgb(75, 71, 71);
+}
+.skills ul {
+  list-style-type: disc;
+}
+.skills ul li {
+  font-size: small;
+  
+}
+.certificates {
+  margin-top: 30px;
+  color: rgb(75, 71, 71);
+  grid-column: 1/2;
+  grid-row: 4/4;
+}
+.certificates p {
+  font-size: small;
+}
+.interest {
+  margin-top: 100px;
+  color: rgb(75, 71, 71);
+  grid-column: 2/2;
+  grid-row: 4/4;
+}
+.interest ul{
+  list-style-type: none;
+}
+.interest ul li{
+  display:  inline-block;
+  font-size: small;
+}
